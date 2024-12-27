@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+*/
+
+/* Style the body  */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 5px;
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://918429.smushcdn.com/2325059/wp-content/uploads/2020/10/0000142255.jpg?lossy=1&strip=1&webp=1");
+  background-position-y: 35%;
+  background-position-x: 10%;
+  background-size: cover;
+  color: white;
+}
+
+.Fotos {
+  text-align: center;
+  width: 100px;
+  margin: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.Fotos img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.Menu {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.Menu .UserSession {
+  position: relative;
+  display: block;
+  left: -400px;
+  top: 15px;
+}
+
+.Menu a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.Menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.SaludoPrincipal {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.derecha {
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.noticias {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 15px;
+}
+
+.noticias img {
+  width: 80px;
+  height: 80px;
+  align-items: flex-end;
+  margin: 5px;
+}
+
+.footer {
+  background-color: #e9e9e9;
+  padding: 1%;
+}
+
+
+.Redes {
+  display: flex;
+  flex-direction: row;
+}
+
+.Redes>div {
+
+  margin: 1%;
+}

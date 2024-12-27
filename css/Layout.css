@@ -1,0 +1,55 @@
+.header {
+  grid-area: header;
+  padding: 0%;
+}
+
+.principal {
+  grid-area: main;
+  padding: 5%;
+}
+
+.SaludoPrincipal {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.Menu .UserSession {
+  position: relative;
+  display: block;
+  left: -400px;
+  top: 15px;
+}
+
+.derecha {
+  grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.Menu {
+  grid-area: menu;
+  padding-top: 0%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu menu menu menu menu'
+    'main main main main main right'
+    'footer footer footer footer footer footer';
+  grid-gap: 0px;
+  /* Con este cambiamos el espacio entre cada grid */
+  /* background-color: #ebebeb; */
+
+}
+
+.grid-container>div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+}
